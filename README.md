@@ -2,12 +2,12 @@
 
 The purpose of this project is to create a Bank Note Authenticator, and then use a Flask API in order to create a more user friendly front end to authenticate new bank notes
 
-**Jupyter Notebook**
+**Jupyter Notebook:**
 There are 4 features being predicted off of in this project which are variance, skewness, curtosis, and entropy.
 These features are fitted into a Random Forest Classifier to learn and predict results from the test test.
 These classifier instance file is then pickled so that they can be exported from Jupyter Notebook, and imported into Spyder IDE.
 
-**Spyder IDE**
+**Spyder IDE:**
 The pickled classifier instance is imported into Spyder.
 The flask API is created within Spyder.
 The API creates two versions of using the classifer
